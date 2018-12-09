@@ -1,0 +1,23 @@
+
+
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Bold_1.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto-light';
+    src: url('Roboto-light_1.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto-Italic';
+    src: url('Roboto-lightItalic_1.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
