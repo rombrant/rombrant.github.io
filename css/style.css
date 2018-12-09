@@ -129,11 +129,11 @@ button {
 }
 
 .menu__link--feedback:before {
-    background-image: url('/img/feed_icon.png')
+    background-image: url('./../img/feed_icon.png')
 }
 
 .menu__link--crew:before {
-    background-image: url('/img/team_icon.png')
+    background-image: url('./../img/team_icon.png')
 }
 
 .menu__item--active .menu__link--plane {
