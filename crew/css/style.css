@@ -1,0 +1,78 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    margin-top: 54px;
+    margin-left: 200px;
+}
+.crew {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    
+}
+.members {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 260px;
+    }
+.members__description {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.members__photo {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.members__photo .photo:hover {
+    background-image: url('../img/alex_hover.png')
+}
+.members__description-name{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+}
+.members__desripion-position {
+    color: #4b73b5;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+}
+.members__description-content {
+    font-family: Roboto-Light;
+    font-weight: 300;
+}
+
+
+
+.partners__list {
+    display: flex;
+    flex-flow: row wrap;
+    /*justify-content: flex-end;
+    align-items: center;
+    align-content: space-between;*/
+    margin-top: 30px;
+}
+.partners__list-logo-link {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    list-style-type: none;
+    margin-left: 110px;
+    width: 161px;
+}
+.partners__list-logo-link:nth-child(1) {
+    flex-flow: column;
+}

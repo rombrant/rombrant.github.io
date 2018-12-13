@@ -2,21 +2,21 @@
 
 
 @font-face {
-    font-family: 'Roboto' helvetica, arial, sans-serif;
+    font-family: 'Roboto';
     src: url('Roboto-Bold_1.ttf');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Roboto-light' helvetica, arial, sans-serif;
-    src: url('Roboto-light_1.ttf');
+    font-family: 'Roboto-light';
+    src: url('Roboto-Light_1.ttf');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Roboto-Italic' helvetica, arial, sans-serif;
+    font-family: 'Roboto-Italic';
     src: url('Roboto-LightItalic_1.ttf');
     font-weight: normal;
     font-style: normal;
