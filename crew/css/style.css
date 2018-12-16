@@ -1,22 +1,22 @@
 .page {
     display: flex;
     flex-direction: column;
-    margin-top: 54px;
-    margin-left: 200px;
+    margin-top: 42px;
+    max-width: 83%;
 }
 .crew {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    
+    margin-bottom: 10px;
+    margin-top: 47px;
 }
 .members {
-    margin-top: 30px;
-    margin-bottom: 50px;
+    margin-bottom: 34px;
     display: flex;
     flex-direction: column;
     justify-content: start;
-    width: 260px;
+    max-width: 260px;
     }
 .members__description {
     display: flex;
@@ -32,9 +32,29 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    height: 160px;
 }
-.members__photo .photo:hover {
-    background-image: url('../img/alex_hover.png')
+
+img.photo:hover {
+    opacity: 0;
+}
+.members__photo-yurii:hover {
+    background-image: url('../img/yrii-hover.png');
+}
+.members__photo-elena:hover {
+    background-image: url('../img/elena-hover.png');
+}
+.members__photo-elina:hover {
+    background-image: url('../img/elina-hover.png');
+}
+.members__photo-lesch:hover {
+    background-image: url('../img/lesch-hover.png');
+}
+.members__photo-inna:hover {
+    background-image: url('../img/inna-hoveer.png');
+}
+.members__photo-alex:hover {
+    background-image: url('../img/alex-hover.png');
 }
 .members__description-name{
     font-family: Roboto;
@@ -54,24 +74,31 @@
 }
 
 
-
+.partners {
+    margin-bottom: 24px;
+}
 .partners__list {
     display: flex;
     flex-flow: row wrap;
     /*justify-content: flex-end;
     align-items: center;
     align-content: space-between;*/
-    margin-top: 30px;
+    margin-top: 25px;
 }
 .partners__list-logo-link {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    margin-right: 67px;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 42px;
     list-style-type: none;
-    margin-left: 110px;
+    margin-left: 66px;
     width: 161px;
+    filter: grayscale(100%);
+}
+.partners__list-logo-link:hover {
+    filter: grayscale(0)
 }
 .partners__list-logo-link:nth-child(1) {
     flex-flow: column;

@@ -1,8 +1,14 @@
 .page {
-    float: right;
+    flex: 1 0 auto;
     /*margin-left: 200px;*/
-    margin-top: 54px;
-    width: 900px;
+    margin-top: 42px;
+    max-width: 83%;
+}
+.wrapper--feed {
+    min-width:1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 .feedback {
     display: flex;
@@ -11,7 +17,11 @@
 .feedback__list {
     margin-bottom: 20px;
 }
-
+.feedback__description {
+    display: flex;
+    flex-flow: row;
+    margin-bottom: 15px;
+}
 
 .feedback__avatar--none {
     width: 160px;
@@ -20,10 +30,12 @@
 }
 .faq {
     display: flex;
-    flex-flow: row;
+    flex-flow: row nowrap;
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 35px;
+    margin-bottom: 38px;
     width: 100%;
+    min-width: 1100px;
     height: 170px;
     background-image: url('../img/background_faq.png');
 }
@@ -36,6 +48,9 @@
     font-weight: 300;
     line-height: 30px;
 }
+.feedback-form {
+    min-width: 1100px;
+}
 .feedback-form__input {
     display: flex;
     flex-flow: row wrap;
@@ -43,7 +58,7 @@
     margin: 0 auto;
     margin-top: 45px;
     width: 700px;
-    height: 430px;
+    min-height: 395px;
     background-color: #f5f5f5;
     font-family: Roboto-light;
 }
@@ -53,12 +68,21 @@
     width: 600px;
 }
 .input-block {
+    display: flex;
+    flex-flow: inherit;
+    justify-content: space-between;
     margin-bottom: 30px;
     width: 600px;
 }
-.feedback-form__name-block {
-    display: inline-block;
-    float: left;
+.feedback-form__social-block {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+.name-block {
+    display: flex;
+    flex-direction: column;
+    margin-right: 54px;
 }
 .feedback-form__input-name {
     width: 270px;
@@ -72,9 +96,9 @@
     font-size: 17px;
     font-weight: 300;
 }
-.feedback-form__profile-block {
-    display: inline-block;
-    float: right;
+.profile-block {
+    display: flex;
+    flex-direction: column;
 }
 .feedback-form__input-profile {
     width: 270px;
@@ -99,19 +123,21 @@
     margin-top: 5px;
     border: 1px solid #4b73b5;
 }
-.feedback-form-send-form {
-    display: inline-block;
-    float: right;
-}
+
 .admit-avatar {
-    display: inline-block;
-    float: left;
+    display: flex;
+    flex-flow: column;
 }
 .admit-avatar__question {
     margin-bottom: 7px;
 }
+.avatar-radio-block {
+    display: flex;
+    flex-flow: row;
+}
 .admit-avatar__answear {
-    display: inline-block;
+    display: flex;
+    flex-flow: row;
     width: 60px;
     height: 20px;
     vertical-align: middle;
@@ -159,4 +185,7 @@
     height: 14px;
     background: center center no-repeat;
     background-image: url('../img/plane_button.png');
+}
+.pagination--feed {
+    margin-top: 40px;
 }
