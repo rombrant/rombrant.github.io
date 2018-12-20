@@ -10,52 +10,54 @@
     justify-content: space-around;
     margin-bottom: 10px;
     margin-top: 47px;
+
+
 }
 .members {
     margin-bottom: 34px;
     display: flex;
-    flex-direction: column;
-    justify-content: start;
-    max-width: 260px;
-    }
-.members__description {
-    display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    align-items: flex-start;
-    align-content: center;
+    max-width: 260px;
+    
+}
+.members__description {
     text-align: center;
     margin-top: 25px;
 }
 
-.members__photo {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
+.photo {
+    display: block;
+    width: 160px;
     height: 160px;
 }
 
-img.photo:hover {
+.members__photo-item {
+    margin: 0 auto;
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    background-color: rgba(75, 115, 181, .6);
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    text-align: center;
+
+    color: #fff;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 165px;
+    transition-duration: 0.7s;
+}
+.members__description {
+    height: 65%;
+}
+.members__photo-item:hover {
     opacity: 0;
+    transition-duration: 0.5s;
+    cursor: pointer;
 }
-.members__photo-yurii:hover {
-    background-image: url('../img/yrii-hover.png');
-}
-.members__photo-elena:hover {
-    background-image: url('../img/elena-hover.png');
-}
-.members__photo-elina:hover {
-    background-image: url('../img/elina-hover.png');
-}
-.members__photo-lesch:hover {
-    background-image: url('../img/lesch-hover.png');
-}
-.members__photo-inna:hover {
-    background-image: url('../img/inna-hoveer.png');
-}
-.members__photo-alex:hover {
-    background-image: url('../img/alex-hover.png');
-}
+
 .members__description-name{
     font-family: Roboto;
     font-size: 18px;
@@ -96,9 +98,12 @@ img.photo:hover {
     margin-left: 66px;
     width: 161px;
     filter: grayscale(100%);
+    transition-duration: 0.7s;
 }
 .partners__list-logo-link:hover {
-    filter: grayscale(0)
+    filter: grayscale(0);
+    transition-duration: 0.7s;
+    cursor: pointer;
 }
 .partners__list-logo-link:nth-child(1) {
     flex-flow: column;

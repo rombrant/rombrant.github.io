@@ -14,9 +14,10 @@
                 <div class="header__container">
                     <div class="header__container-logo"><a class="logo__link" href="index.html"><img class ="логотип авиакомпании" src="img/logo_header.png"  alt="логотип"></a></div>
                         <div class="header__container-contacts">
-                            <a class="header__container-contacts__phone" href="tel:+78000039210" > <img class ="контактный телефон" src="img/8_(800)_00-392-10.png"  alt="логотип"></a>
+                            <a class="header__container-contacts__phone" href="tel:+78000039210" >8 (800) 00-392-10</a>
                                 <div class="header__container-contacts__block">
-                                    <button  type="button" class="header__container-contacts-button"> <img src="img/workingtime.png" alt="кнопка график"></button>
+                                    <button  type="button" class="header__container-contacts-button"> <span class="header__container-contacts-button-content">Грфик работы</span></button>
+                                    <div class="header__container-contacts-button-graphics">пн-вс: 09:00-20:00 <div class="header__container-contacts-button-dinner">обед: 14:00-14:30</div></div>
                                 </div>
                         </div>
                 </div>
@@ -27,29 +28,33 @@
             
                                 <ul class="menu__list">
                                     <li class="menu__item menu__item--active">
-                                        <a href="#" class="menu__link menu__link--plane">главная</a>
+                                        <span  class="menu__link ">главная</span>
                                     </li>
             
                                     <li class="menu__item ">
-                                        <a href="./feed/feed.html" class="menu__link menu__link--feedback">отзывы</a>
+                                        <a href="./feed/feed.html" class="menu__link ">отзывы</a>
                                     </li>
             
                                     <li class="menu__item ">
-                                            <a href="./crew/crew.html" class="menu__link menu__link--crew">экипаж</a>
-                                        </a>
+                                            <a href="./crew/crew.html" class="menu__link ">экипаж</a>
                                     </li>
                                 </ul>
                             </nav>
                     </aside>
             
                 <main class="main__content">
-                    <section class="section-img"><img src="./img/Photo.jpg" class="section-img__main"></section>
-                    <h1 class="title title-tariffs">Тарифы</h1>
+                    <div class="section-img"><img src="./img/Photo.jpg" class="section-img__main" alt="главная картинка сайта"></div>
+                    
                     <section class="tariffs">
-                            <div class="tariffs__offers">
-                                <div class="img"><div class="img__standart"></div></div>
+                        <h1 class="title title-tariffs">Тарифы</h1>
+                        <ul class="tariffs__list">
+                            <li class="tariffs__offers">
+                                <div class="img">
+                                    <div class="img__background"></div><div class="img__standart"></div>
+                                </div>
+                                <h3 class="tariffs__offers__information-name">стандрат</h3>
                                 <div class="tariffs__offers__information">
-                                    <h3 class="tariffs__offers__information-name">стандрат</h3>
+                                    
                                     <div class="tariffs__offers__information-tagline">Создан для вашего комфортного отдыха</div>
                                     <ul class="tariffs__offers__information-description">
                                         <li class="tariffs__offers__information-description__content">Питание включено</li>
@@ -61,11 +66,14 @@
                                     <h2 class="tariffs__offers__price-currency">$</h2>
                                     <h2 class="tariffs__offers__price-number">19</h2>
                                 </div>
-                            </div>
-                            <div class="tariffs__offers">
-                                    <div class="img"><div class="img__premium"></div></div>
+                            </li>
+                            <li class="tariffs__offers">
+                                    <div class="img">
+                                            <div class="img__background"></div><div class="img__standart"></div>
+                                    </div>
+                                    <h3 class="tariffs__offers__information-name">премиум</h3>
                                     <div class="tariffs__offers__information">
-                                        <h3 class="tariffs__offers__information-name">премиум</h3>
+                                        
                                         <div class="tariffs__offers__information-tagline">Для любителей хороших впечатлений</div>
                                         <ul class="tariffs__offers__information-description">
                                             <li class="tariffs__offers__information-description__content">Питание включено</li>
@@ -77,11 +85,14 @@
                                         <h2 class="tariffs__offers__price-currency">$</h2>
                                         <h2 class="tariffs__offers__price-number">39</h2>
                                     </div>
-                            </div>
-                            <div class="tariffs__offers">
-                                    <div class="img"><div class="img__luxury"></div></div>
+                            </li>
+                            <li class="tariffs__offers">
+                                    <div class="img">
+                                            <div class="img__background"></div><div class="img__standart"></div>
+                                    </div>
+                                    <h3 class="tariffs__offers__information-name">лакшери</h3>
                                     <div class="tariffs__offers__information">
-                                        <h3 class="tariffs__offers__information-name">лакшери</h3>
+                                        
                                         <div class="tariffs__offers__information-tagline">Все самое лучшее и незабываемое</div>
                                         <ul class="tariffs__offers__information-description">
                                             <li class="tariffs__offers__information-description__content">Питание включено</li>
@@ -93,10 +104,12 @@
                                     <h2 class="tariffs__offers__price-currency">$</h2>
                                     <h2 class="tariffs__offers__price-number">99</h2>
                                     </div>
-                            </div>
+                            </li>
+                        </ul>
                     </section>
-                    <h2 class="title title-tariffs">Последние новости</h2>
+                    
                     <section class="feeds">
+                            <h2 class="title title-tariffs">Последние новости</h2>
                             <div class="feeds__news">
                                     <ul class="feeds__news__list">
                                         <li class="feeds__news__item">

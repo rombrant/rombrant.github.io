@@ -13,7 +13,7 @@
     <div class="wrapper--feed">
         <header class="header">
             <div class="header__container">
-                <div class="header__container-logo"><a class="logo__link" href="index.html"><img class ="logo__img" src="../img/logo_header.png"  alt="логотип авиакомпании"></a></div>
+                <div class="header__container-logo"><a class="logo__link" href="../index.html"><img class ="logo__img" src="../img/logo_header.png"  alt="логотип авиакомпании"></a></div>
                     <div class="header__container-contacts">
                         <a class="header__container-contacts__phone" href="tel:+78000039210" ><img class ="phone__img" src="../img/8_(800)_00-392-10.png"  alt="контактный телефон"></a>
                         <div class="header__container-contacts__block">
@@ -28,66 +28,68 @@
     
                         <ul class="menu__list">
                             <li class="menu__item">
-                                <a href="../index.html" class="menu__link menu__link--plane">главная</a>
+                                <a href="../index.html" class="menu__link ">главная</a>
                             </li>
     
                             <li class="menu__item menu__item--active">
-                                <a href="#" class="menu__link menu__link--feedback">отзывы</a>
+                                <span class="menu__link">отзывы</span>
                             </li>
     
                             <li class="menu__item ">
-                                    <a href="../crew/crew.html" class="menu__link menu__link--crew">экипаж</a>
-                                </a>
+                                    <a href="../crew/crew.html" class="menu__link">экипаж</a>
+                        
                             </li>
                         </ul>
                     </nav>
             </aside>
             <main class="page">
-                <section class="feedback">
-                    <div class="breadcrumbs">
+                <div class="breadcrumbs">
                         <a href="../index.html" class="breadcrumbs__link">Главная</a>
                         <span class="breadcrumbs__link-separator">/</span>
                         <span class="breadcrumbs__feed breadcrumbs__feed--active">Отзывы</span>
-                    </div>
-                    <h2 class="title-feed title">Отзывы</h2>
-                        <li class="feedback__description feeds__news__item">
-                            <img class="feedback__avatar feeds__news__item__avatar" src="./img/irina.png" alt="аватар коментатора">
-                            <div class="feedback__content feeds__news__item__description">
-                                <div class="feedback__date feeds__news__item__time">12.10.2016</div>
-                                <h3 class="feedback__name feeds__news__item__headline">Ирина Паламарчук</h3>
-                                <p class="feedback__text feeds__news__item__content">Классный полет, трясло первые полчаса так, что я боялась отстегнуть ремни. Слава Богу, ничего не случилось, но мне даже валерьянка не помогла, так страшно было. Рекомендую эту компанию, но лучше доплатить и лететь с комфортом.</p>
-                            </div>
-                        </li>
-                        <li class="feedback__description feeds__news__item">
-                            <img class="feedback__avatar feeds__news__item__avatar" src="./img/alexander.png" alt="аватар коментатора">
-                            <div class="feedback__content feeds__news__item__description">
-                                <div class="feedback__date feeds__news__item__time">01.02.2016</div>
-                                <h3 class="feedback__name feeds__news__item__headline">Александр Бельков</h3>
-                                <p class="feedback__text feeds__news__item__content">
-                                        
-                                        Все понравилось, вежливые стюардессы, вовремя убирают, напитки предлагали 2 раза, а еду – 1 раз. Единственное, что не понравилось, как то мало места для ног, но с этим у меня часто проблема, рост 2,1м.</p>
-                            </div>
-                        </li>
-                        <li class="feedback__description feeds__news__item">
-                            <img class="feedback__avatar feeds__news__item__avatar feedback__avatar--none" src="" alt="">
-                            <div class="feedback__content feeds__news__item__description">
-                                <div class="feedback__date feeds__news__item__time">22.12.2015</div>
-                                <h3 class="feedback__name feeds__news__item__headline">Игорь Николаенко</h3>
-                                <p class="feedback__text feeds__news__item__content">
-                                        
-                                        Кормили супер вообще! Сказали, что это из-за того, что полет менее 2,5 часов. Но прибавьте к этому время регистрации в аэропорту. Летел с женой и мы очень проголодались. Просто имейте это ввиду, берите с собой хотя бы бутерброды, чипсы какие-то или печенье.</p>
-                            </div>
-                        </li>
-                        <li class="feedback__description feeds__news__item feeds__news__item--active">
-                            <img class="feedback__avatar feeds__news__item__avatar" src="./img/anastasia.png" alt="аватар коментатора">
-                            <div class="feedback__content feeds__news__item__description">
-                                <div class="feedback__date feeds__news__item__time">14.08.2015</div>
-                                <h3 class="feedback__name feeds__news__item__headline">Анастасия Порядная</h3>
-                                <p class="feedback__text feeds__news__item__content">
-                      
-                                        За такую цену просто все отлично! Кто недоволен, платите в 2 раза больше за аналогичные рейсы. Мне понравилось, что на борту было чисто, я аллергик и всегда чутко реагирую на пыль. Спасибо за полет! Рекомендую!</p>
-                            </div>
-                        </li>
+                </div>
+                <section class="feedback">
+                    <h1 class="title-feed title">Отзывы</h1>
+                        <ul class="feedback__list">
+                            <li class="feedback__description feeds__news__item">
+                                <img class="feedback__avatar feeds__news__item__avatar" src="./img/irina.png" alt="аватар коментатора">
+                                <div class="feedback__content feeds__news__item__description">
+                                    <div class="feedback__date feeds__news__item__time">12.10.2016</div>
+                                    <h3 class="feedback__name feeds__news__item__headline">Ирина Паламарчук</h3>
+                                    <p class="feedback__text feeds__news__item__content">Классный полет, трясло первые полчаса так, что я боялась отстегнуть ремни. Слава Богу, ничего не случилось, но мне даже валерьянка не помогла, так страшно было. Рекомендую эту компанию, но лучше доплатить и лететь с комфортом.</p>
+                                </div>
+                            </li>
+                            <li class="feedback__description feeds__news__item">
+                                <img class="feedback__avatar feeds__news__item__avatar" src="./img/alexander.png" alt="аватар коментатора">
+                                <div class="feedback__content feeds__news__item__description">
+                                    <div class="feedback__date feeds__news__item__time">01.02.2016</div>
+                                    <h3 class="feedback__name feeds__news__item__headline">Александр Бельков</h3>
+                                    <p class="feedback__text feeds__news__item__content">
+                                            
+                                            Все понравилось, вежливые стюардессы, вовремя убирают, напитки предлагали 2 раза, а еду – 1 раз. Единственное, что не понравилось, как то мало места для ног, но с этим у меня часто проблема, рост 2,1м.</p>
+                                </div>
+                            </li>
+                            <li class="feedback__description feeds__news__item">
+                                <div class="feedback__avatar feeds__news__item__avatar feedback__avatar--none"></div>
+                                <div class="feedback__content feeds__news__item__description">  
+                                    <div class="feedback__date feeds__news__item__time">22.12.2015</div>
+                                    <h3 class="feedback__name feeds__news__item__headline">Игорь Николаенко</h3>
+                                    <p class="feedback__text feeds__news__item__content">
+                                            
+                                            Кормили супер вообще! Сказали, что это из-за того, что полет менее 2,5 часов. Но прибавьте к этому время регистрации в аэропорту. Летел с женой и мы очень проголодались. Просто имейте это ввиду, берите с собой хотя бы бутерброды, чипсы какие-то или печенье.</p>
+                                </div>
+                            </li>
+                            <li class="feedback__description feeds__news__item feeds__news__item--active">
+                                <img class="feedback__avatar feeds__news__item__avatar" src="./img/anastasia.png" alt="аватар коментатора">
+                                <div class="feedback__content feeds__news__item__description">
+                                    <div class="feedback__date feeds__news__item__time">14.08.2015</div>
+                                    <h3 class="feedback__name feeds__news__item__headline">Анастасия Порядная</h3>
+                                    <p class="feedback__text feeds__news__item__content">
+                        
+                                            За такую цену просто все отлично! Кто недоволен, платите в 2 раза больше за аналогичные рейсы. Мне понравилось, что на борту было чисто, я аллергик и всегда чутко реагирую на пыль. Спасибо за полет! Рекомендую!</p>
+                                </div>
+                            </li>
+                        </ul>
                     <div class="pagination pagination--feed">
                             <div class="pagination__display">Страница 1 из 7</div>
                             <div class="pagination__controlls">
@@ -123,35 +125,51 @@
         </div>
     </div>
     <div class="wrapper--feed">
-        <section class="faq">
-            <div class="faq__info">Вопросы по бронированию билетов в нашей авиакомпании принимаются. Для этого можно оставить заявку на сайте или же позвонить по номеру круглосуточной поддержки 8 (800) 00-392-10.</div>
-        </section>
+        <div class="faq">
+            <div class="faq__info">Вопросы по бронированию билетов в нашей авиакомпании принимаются. Для этого можно оставить <a href="#" class="faq-request">заявку на сайте</a> или же позвонить по номеру круглосуточной поддержки <a class="faq-phone" href="tel:+78000039210" >8 (800) 00-392-10.</a></div>
+        </div>
         <section class="feedback-form">
-            <form class="feedback-form__input" id="feedback-form-id">
+            <form action="get" class="feedback-form__input" id="feedback-form-id">
                 <h3 class="title title-feedback">Оставить отзывы</h3>
-                <div class="input-block">
-                    <div class="feedback-form__social-block">
-                        <div class="name-block">
-                            <label id="feedback-form-id" class="feedback-form__name">Ваше имя</label>
-                            <input class="feedback-form__input-name" placeholder="Ваше имя" name="user" form="feedback-form-id">
+                <div class="feedback-form__input-block">
+                    <div class="feedback-form__social-content">
+                        <div class="feedback-form__social-block">
+                            <label id="feedback-form-name" class="feedback-form__name">Ваше имя
+                                <input class="feedback-form__social-input" placeholder="Ваше имя" name="user" form="feedback-form-id">
+                            </label>
                         </div>
-                        <div class="profile-block">
-                            <label id="feedback-form-id" class="feedback-form__profile">Ссылка на профиль VK</label>
-                            <input class="feedback-form__input-profile" placeholder="vk.com/example" name="profile" form="feedback-form-id">
+                        <div class="feedback-form__social-block">
+                            <label id="feedback-form-profile" class="feedback-form__profile">Ссылка на профиль VK
+                                <input class="feedback-form__social-input" placeholder="vk.com/example" name="profile" form="feedback-form-id">
+                            </label>
                         </div>
                     </div>
                     <div class="feedback-form__comment-block">
-                        <label id="feedback-form-id" class="feedback-form__comment">Текст отзыва</label>
-                        <textarea class="feedback-form__input-comment" placeholder="" name="comment" form="feedback-form-id"></textarea>
+                        <label id="feedback-form-comment"  class="feedback-form__comment">Текст отзыва
+                            <textarea form="feedback-form-id" class="feedback-form__input-comment" placeholder="Мне понравилось" name="comment" ></textarea>
+                        </label>
                     </div>
-                    <div class="admit-avatar">
-                        <label id="feedback-form-id" class="admit-avatar__question">Отображать фото в отзыве?</label>
-                        <div class="avatar-radio-block">
-                            <div class="admit-avatar__answear"><input class="admit-avatar__yes" type="radio" form="feedback-form-id" value="yes">Да</div> <div class="admit-avatar__answear"><input class="admit-avatar__no" type="radio" form="feedback-form-id" value="no">Нет</div>
+                    <div class="feedback-form__buttons">
+                        <div class="feedback-form__radio-block">
+                                <div class="feedback-form__label-box"><label id="feedback-form-radio" class="feedback-form__label">Отображать фото в отзыве?</label></div>
+            
+            
+                                <label class="feedback-form__radio-box" tabindex="0">
+                                    <input type="radio" name="radio-comments" value="yes" class="feedback-form__radio" checked>
+                                    <span class="feedback-form__radio-custom">
+                            <span  class="feedback-form__radio-text   feedback-form__radio-text_checked" >Да</span> </span>
+                                    
+                                    </label>
+            
+                                <label class="feedback-form__radio-box" tabindex="0">
+                                    <input type="radio" name="radio-comments" value="no" class="feedback-form__radio">
+                                    <span class="feedback-form__radio-custom"><span 	class="feedback-form__radio-text"> Нет</span></span>
+                                    
+                                    </label>
                         </div>
-                    </div>
-                    <div class="feedback-form__send-form">
-                        <button id="feedback-form-id" class="send-form-button" type="submit"><div class="send-form-button-name">отправить</div></button>
+                        <div class="feedback-form__send-form">
+                            <button class="send-form-button" type="submit"><span class="send-form-button-name">отправить</span></button>
+                        </div>
                     </div>
                 </div>
             </form>
@@ -163,7 +181,7 @@
                     Автор работы: <a href="#" class="footer__container-info-autor">Сафин Роман</a>
                 </div>
 
-                <a class="logo" href="index.html"><img class ="logo__img" src="../img/logo_header.png"  alt="логотип"></a>
+                <a class="logo" href="../index.html"><img class ="logo__img" src="../img/logo_header.png"  alt="логотип"></a>
 
                 <div class="footer__container-social">
                     <h3 class="footer__container-social__head">Наши социальные сети</h3>
